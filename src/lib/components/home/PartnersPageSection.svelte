@@ -8,12 +8,6 @@ const partnersCount = partnersData.length;
         <h2 class="text-3xl font-semibold md:leading-tight text-gray-800">Ініціативу «Цифровий Університет» підтримало понад {partnersCount} компаній та організацій</h2>
     </div>
 
-    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-20 gap-y-10">
-        {#each partnersData as partner}
-
-        {/each}
-    </div>
-
     <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-3 lg:gap-6">
         {#each partnersData as partner}
             <div class="relative p-4 md:p-7 bg-gray-100 rounded-lg flex items-center justify-center">
