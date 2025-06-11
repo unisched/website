@@ -6,7 +6,7 @@ import unischedLogoDark from '$lib/assets/unisched-logo-dark-2color.svg';
 <header class="sticky top-0 flex flex-nowrap z-50 w-full bg-white border-b border-gray-200">
     <nav class="relative max-w-[85rem] w-full mx-auto flex items-center justify-between md:gap-3 py-3 px-4 sm:px-6 lg:px-8">
         <div class="flex grow justify-start items-center gap-x-1">
-            <a class="flex-none font-semibold text-xl text-black focus:outline-hidden focus:opacity-80" href="/static" aria-label="Unisched">
+            <a class="flex-none font-semibold text-xl text-black focus:outline-hidden focus:opacity-80" href="/" aria-label="Unisched">
                 <img src="{unischedLogoDark}" style="height: 20px;" alt="Unisched"/>
             </a>
         </div>

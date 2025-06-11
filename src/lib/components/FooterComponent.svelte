@@ -9,7 +9,7 @@ const currentYear = (new Date()).getUTCFullYear();
 <footer class="mt-auto w-full max-w-[35rem] py-14 px-4 sm:px-6 lg:px-8 mx-auto">
     <div class="text-center">
         <div class="flex justify-center">
-            <a class="flex-none text-xl font-semibold text-black" href="/static" aria-label="Unisched">
+            <a class="flex-none text-xl font-semibold text-black" href="/" aria-label="Unisched">
                 <img src="{unischedLogoDark}" style="height: 20px;" alt="Unisched"/>
             </a>
         </div>
