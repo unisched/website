@@ -26,4 +26,13 @@
 svg { pointer-events: none !important; }
 .material-symbols-outlined {
     font-size: inherit;
+    pointer-events: none !important;
+    user-select: none !important;
+    -webkit-user-select: none !important;
+}
+
+a, img {
+    -webkit-user-drag: none !important;
+    user-select: none !important;
+    -webkit-user-select: none !important;
 }
