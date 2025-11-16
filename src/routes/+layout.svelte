@@ -7,6 +7,8 @@ import FooterComponent from '$lib/components/FooterComponent.svelte';
 
 let { children } = $props();
 
+export const prerender = true;
+
 afterNavigate(() => {
     window.HSStaticMethods.autoInit();
 });
