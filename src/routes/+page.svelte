@@ -1,12 +1,13 @@
 <script lang="ts">
-import HeroPageSection from '$lib/components/home/HeroPageSection.svelte';
 import FeaturesPageSection from '$lib/components/home/FeaturesPageSection.svelte';
+import FrequentQuestionsPageSection from '$lib/components/home/FrequentQuestionsPageSection.svelte';
+import HeroPageSection from '$lib/components/home/HeroPageSection.svelte';
 import InstitutionsPageSection from '$lib/components/home/InstitutionsPageSection.svelte';
-import SingleFeatureBanner from '$lib/components/home/SingleFeatureBanner.svelte';
-import singleFeatureBanners from '$lib/data/singleFeatureBanners';
 import ProjectStatsPageSection from '$lib/components/home/ProjectStatsPageSection.svelte';
 import PartnersPageSection from '$lib/components/home/PartnersPageSection.svelte';
-import FrequentQuestionsPageSection from '$lib/components/home/FrequentQuestionsPageSection.svelte';
+import ServicesPageSection from '$lib/components/home/ServicesPageSection.svelte';
+import SingleFeatureBanner from '$lib/components/home/SingleFeatureBanner.svelte';
+import singleFeatureBanners from '$lib/data/singleFeatureBanners';
 </script>
 
 <HeroPageSection/>
@@ -31,6 +32,9 @@ import FrequentQuestionsPageSection from '$lib/components/home/FrequentQuestions
                      description={singleFeatureBanners[1].description}
                      image={singleFeatureBanners[1].image}
                      left={false}/>
+<div class="border-b border-gray-200"></div>
+
+<ServicesPageSection/>
 <div class="border-b border-gray-200"></div>
 
 <PartnersPageSection/>
