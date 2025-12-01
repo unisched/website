@@ -1,10 +1,11 @@
 import BookKeeperLogo from '$lib/assets/partners/bookkeeper.png';
+import CloudflareLogo from '$lib/assets/partners/cloudflare.png';
 import CmdLnuLogo from '$lib/assets/partners/cmdlnu.png';
 import FrankoStoreLogo from '$lib/assets/partners/frankostore.png';
 import NgoSupremeOrderLogo from '$lib/assets/partners/ngosupremeorder.png';
-import CloudflareLogo from '$lib/assets/partners/cloudflare.png';
 import ProjectGalileoLogo from '$lib/assets/partners/projectgalileo.png';
 import SirkadirovLogo from '$lib/assets/partners/sirkadirov.png';
+import SmartGitLogo from '$lib/assets/partners/smartgit.png';
 import UptimeRobotLogo from '$lib/assets/partners/uptimerobot.png';
 
 export default [
@@ -32,6 +33,11 @@ export default [
         title: 'Uptime Robot',
         link: 'https://uptimerobot.com/',
         image: UptimeRobotLogo
+    },
+    {
+        title: 'SmartGit',
+        link: 'https://smartgit.dev/',
+        image: SmartGitLogo
     },
     {
         title: 'CMD LNU',
