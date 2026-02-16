@@ -1,6 +1,5 @@
 import BookKeeperLogo from '$lib/assets/partners/bookkeeper.png';
 import CloudflareLogo from '$lib/assets/partners/cloudflare.png';
-import CmdLnuLogo from '$lib/assets/partners/cmdlnu.png';
 import FrankoStoreLogo from '$lib/assets/partners/frankostore.png';
 import NgoSupremeOrderLogo from '$lib/assets/partners/ngosupremeorder.png';
 import ProjectGalileoLogo from '$lib/assets/partners/projectgalileo.png';
@@ -38,11 +37,6 @@ export default [
         title: 'SmartGit',
         link: 'https://smartgit.dev/',
         image: SmartGitLogo
-    },
-    {
-        title: 'CMD LNU',
-        link: 'https://cmd.lnu.edu.ua/',
-        image: CmdLnuLogo
     },
     {
         title: 'Franko Store',
