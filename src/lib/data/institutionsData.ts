@@ -1,17 +1,12 @@
+import AddUniversity from '$lib/assets/institutions/add_university.png';
 import commonUrls from '$lib/data/commonUrls';
-import LvivUniversity from '$lib/assets/institutions/lviv_university.png';
+import KharkivKarazinaUniversity from '$lib/assets/institutions/kharkiv_karazin_university.png';
+import LvivDUBGDUniversity from '$lib/assets/institutions/lviv_dubgd_university.png';
+import LvivUNFUniversity from '$lib/assets/institutions/lviv_unf_university.png';
 import PolissiaUniversity from '$lib/assets/institutions/polissia_university.png';
 import PoltavaNPUniversity from '$lib/assets/institutions/poltava_np_university.png';
-import LVIVDUBGDUniversity from '$lib/assets/institutions/lviv_dubgd_university.png';
-import KharkivKarazinaUniversity from '$lib/assets/institutions/kharkiv_karazin_university.png';
-import AddUniversity from '$lib/assets/institutions/add_university.png';
 
 const institutionsData = [
-    {
-        name: 'Львівський національний університет імені Івана Франка',
-        logo: LvivUniversity,
-        link: 'https://lnu.edu.ua/'
-    },
     {
         name: 'Поліський національний університет',
         logo: PolissiaUniversity,
@@ -23,8 +18,13 @@ const institutionsData = [
         link: 'https://pnpu.edu.ua/'
     },
     {
+        name: 'Національний лісотехнічний університет України',
+        logo: LvivUNFUniversity,
+        link: 'https://nltu.edu.ua/'
+    },
+    {
         name: 'Львівський державний університет безпеки життєдіяльності ',
-        logo: LVIVDUBGDUniversity,
+        logo: LvivDUBGDUniversity,
         link: 'https://ldubgd.edu.ua/'
     },
     {
