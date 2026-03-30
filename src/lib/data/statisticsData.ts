@@ -1,5 +1,5 @@
 export default {
-    totalUsers: 25000,
-    totalDevelopmentHours: 20000,
+    totalUsers: 30500,
+    totalDevelopmentHours: 45000,
     popularUserCountriesCount: 14
 };

@@ -1,1 +1,1 @@
-import('preline/dist');
+import('preline');

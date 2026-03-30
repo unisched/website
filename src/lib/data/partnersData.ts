@@ -1,6 +1,7 @@
 import BookKeeperLogo from '$lib/assets/partners/bookkeeper.png';
 import CloudflareLogo from '$lib/assets/partners/cloudflare.png';
 import FrankoStoreLogo from '$lib/assets/partners/frankostore.png';
+import GitBookLogo from '$lib/assets/partners/gitbook.png';
 import NgoSupremeOrderLogo from '$lib/assets/partners/ngosupremeorder.png';
 import ProjectGalileoLogo from '$lib/assets/partners/projectgalileo.png';
 import SirkadirovLogo from '$lib/assets/partners/sirkadirov.png';
@@ -37,6 +38,11 @@ export default [
         title: 'SmartGit',
         link: 'https://smartgit.dev/',
         image: SmartGitLogo
+    },
+    {
+        title: 'GitBook',
+        link: 'https://gitbook.com/',
+        image: GitBookLogo
     },
     {
         title: 'Franko Store',

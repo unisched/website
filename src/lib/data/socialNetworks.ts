@@ -1,6 +1,7 @@
 import SiFacebook from '@icons-pack/svelte-simple-icons/icons/SiFacebook';
 import SiInstagram from '@icons-pack/svelte-simple-icons/icons/SiInstagram';
 import SiTelegram from '@icons-pack/svelte-simple-icons/icons/SiTelegram';
+import SiThreads from '@icons-pack/svelte-simple-icons/icons/SiThreads';
 
 export default [
     {
@@ -17,5 +18,10 @@ export default [
         name: 'Telegram',
         icon: SiTelegram,
         href: 'https://e.surl.li/vrsfry'
+    },
+    {
+        name: 'Threads',
+        icon: SiThreads,
+        href: 'https://e.surl.li/myyzvm'
     }
 ];

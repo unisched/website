@@ -5,16 +5,16 @@ export default {
         landingPage: 'https://unisched.download/'
     },
     support: {
-        helpCenter: 'https://help.unisched.download/',
+        helpCenter: 'https://help.unisched.app/',
         chatCenter: 'https://chat.unisched.download/',
         donations: 'https://e.surl.li/donatetounisched',
-        helpForInstitutions: 'https://help.unisched.download/for-institutions'
+        helpForInstitutions: 'https://help.unisched.app/for-institutions'
     },
     policies: {
-        publicOffer: 'https://help.unisched.download/legal/terms',
-        privacyPolicy: 'https://help.unisched.download/legal/privacy'
+        publicOffer: 'https://help.unisched.app/legal/terms',
+        privacyPolicy: 'https://help.unisched.app/legal/privacy'
     },
     others: {
-        mapOfInstitutions: 'https://www.google.com/maps/d/embed?mid=1LvabLTsjV-VtEdUcY4ZcWCSYR6dSsRw&hl=uk&ehbc=2E312F'
+        mapOfInstitutions: 'https://umap.openstreetmap.de/uk-ua/map/unisched_129701'
     }
 };
