@@ -31,7 +31,7 @@ export default [
     },
     {
         title: 'Uptime Robot',
-        link: 'https://uptimerobot.com/',
+        link: 'https://uptimerobot.com/?rid=f09a0b54aafa17',
         image: UptimeRobotLogo
     },
     {
