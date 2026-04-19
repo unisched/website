@@ -1,4 +1,5 @@
 import BookKeeperLogo from '$lib/assets/partners/bookkeeper.png';
+import BugsnagLogo from '$lib/assets/partners/bugsnag.png';
 import CloudflareLogo from '$lib/assets/partners/cloudflare.png';
 import FrankoStoreLogo from '$lib/assets/partners/frankostore.png';
 import GitBookLogo from '$lib/assets/partners/gitbook.png';
@@ -43,6 +44,11 @@ export default [
         title: 'GitBook',
         link: 'https://gitbook.com/',
         image: GitBookLogo
+    },
+    {
+        title: 'BugSnag',
+        link: 'https://bugsnag.com/',
+        image: BugsnagLogo
     },
     {
         title: 'Franko Store',
