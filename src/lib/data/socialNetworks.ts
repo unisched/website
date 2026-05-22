@@ -2,7 +2,7 @@ import SiFacebook from '@icons-pack/svelte-simple-icons/icons/SiFacebook';
 import SiInstagram from '@icons-pack/svelte-simple-icons/icons/SiInstagram';
 import SiTelegram from '@icons-pack/svelte-simple-icons/icons/SiTelegram';
 import SiThreads from '@icons-pack/svelte-simple-icons/icons/SiThreads';
-import SiTikTok from '@icons-pack/svelte-simple-icons/icons/SiTikTok';
+import SiTiktok from '@icons-pack/svelte-simple-icons/icons/SiTiktok';
 
 export default [
     {
@@ -27,7 +27,7 @@ export default [
     },
     {
         name: 'TikTok',
-        icon: SiTikTok,
+        icon: SiTiktok,
         href: 'https://tiktok.com/@unisched'
     }
 ];
