@@ -1,7 +1,8 @@
 export default {
     downloadUrls: {
-        googlePlayPage: 'https://e.surl.li/pcbsol',
-        appleAppStorePage: 'https://e.surl.li/aamfzv',
+        googlePlayPage: 'https://play.google.com/store/apps/details?id=download.unisched.app&hl=uk_UA',
+        appleAppStorePage: 'https://apps.apple.com/ua/app/unisched/id6670330214?l=uk',
+        huaweiAppGalleryPage: 'https://url.cloud.huawei.com/AxmfEfrig0?shareTo=qrcode',
         landingPage: 'https://unisched.download/'
     },
     support: {

@@ -2,26 +2,32 @@ import SiFacebook from '@icons-pack/svelte-simple-icons/icons/SiFacebook';
 import SiInstagram from '@icons-pack/svelte-simple-icons/icons/SiInstagram';
 import SiTelegram from '@icons-pack/svelte-simple-icons/icons/SiTelegram';
 import SiThreads from '@icons-pack/svelte-simple-icons/icons/SiThreads';
+import SiTikTok from '@icons-pack/svelte-simple-icons/icons/SiTikTok';
 
 export default [
     {
         name: 'Facebook',
         icon: SiFacebook,
-        href: 'https://e.surl.li/vhkgdd'
+        href: 'https://facebook.com/unisched'
     },
     {
         name: 'Instagram',
         icon: SiInstagram,
-        href: 'https://e.surl.li/lemcph'
+        href: 'https://instagram.com/unisched.app'
     },
     {
         name: 'Telegram',
         icon: SiTelegram,
-        href: 'https://e.surl.li/vrsfry'
+        href: 'https://t.me/unisched'
     },
     {
         name: 'Threads',
         icon: SiThreads,
-        href: 'https://e.surl.li/myyzvm'
+        href: 'https://threads.com/@unisched.app'
+    },
+    {
+        name: 'TikTok',
+        icon: SiTikTok,
+        href: 'https://tiktok.com/@unisched'
     }
 ];

@@ -2,7 +2,9 @@
     import commonUrls from '$lib/data/commonUrls';
     import googlePlayDownloadButton from '$lib/assets/buttons/google_play.png';
     import appStoreDownloadButton from '$lib/assets/buttons/app_store.svg';
+    import appGalleryDownloadButton from '$lib/assets/buttons/huawei_appgallery.png';
     import univeristyNavbarImage from '$lib/assets/screenshots/university_navbar.png';
+    import socialNetworks from '$lib/data/socialNetworks';
 </script>
 <style>
     .hero-page-section {
@@ -34,17 +36,28 @@
             </div>
 
             <div class="mt-5 max-w-3xl text-center mx-auto">
-                <p class="text-xl text-gray-600">Переглядайте актуальний розклад занять, отримайте доступ до цифрових сервісів, подій та голосувань вашого закладу освіти — завдяки Unisched</p>
+                <p class="text-xl text-gray-600">Переглядай актуальний розклад занять, отримай доступ до цифрових сервісів, подій та голосувань твого закладу освіти — завдяки Unisched</p>
             </div>
 
-            <div class="download-buttons-container mt-5 gap-3 flex justify-center">
+            <div class="download-buttons-container mt-5 gap-3 flex justify-center flex-wrap">
                 <a href={commonUrls.downloadUrls.googlePlayPage} target="_blank" class="hover:opacity-80" style="display: inline-block;">
                     <img src={googlePlayDownloadButton} alt="Завантажити з Google Play" style="height: 55px; vertical-align: middle; object-fit: contain;" />
                 </a>
                 <a href={commonUrls.downloadUrls.appleAppStorePage} target="_blank" class="hover:opacity-80" style="display: inline-block;">
-                    <img src={appStoreDownloadButton} alt="Завантажити в App Store" style="height: 55px; vertical-align: middle; object-fit: contain;" />
+                    <img src={appStoreDownloadButton} alt="Завантажити з App Store" style="height: 55px; vertical-align: middle; object-fit: contain;" />
+                </a>
+                <a href={commonUrls.downloadUrls.huaweiAppGalleryPage} target="_blank" class="hover:opacity-80" style="display: inline-block;">
+                    <img src={appGalleryDownloadButton} alt="Завантажити з Huawei AppGallery" style="height: 55px; vertical-align: middle; object-fit: contain;" />
                 </a>
             </div>
+
+            <div class="mt-5 space-x-2 flex justify-center">
+            {#each socialNetworks as item}
+                <a href={item.href} title={item.name} target="_blank" class="size-8 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent text-gray-500 hover:text-gray-700 focus:outline-hidden focus:text-gray-700">
+                    <item.icon />
+                </a>
+            {/each}
+        </div>
         </div>
 
         <div class="mt-10 sm:px-6 lg:px-8">
